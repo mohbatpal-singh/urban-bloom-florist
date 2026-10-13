@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Suburbs &amp; FAQs | Urban Bloom Florist Auckland</title>
+  <meta name="description" content="Central Auckland flower delivery guide, suburb checker, ordering notice periods, and frequently asked questions for Urban Bloom Florist.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <aside class="site-topbar" aria-label="Announcement">
+    <span>🌸 Auckland Seasonal Blooms | Delivering across Central Auckland &amp; Selected Suburbs Mon–Sat</span>
+    <a href="delivery.html">Check Suburb Delivery &rarr;</a>
+  </aside>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Urban Bloom Florist Homepage">
+        <div class="brand-icon" aria-hidden="true">🌿</div>
+        <div class="brand-text">
+          <span class="brand-title">Urban Bloom</span>
+          <span class="brand-tagline">Florist • Auckland</span>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link">Floral Collection</a></li>
+          <li><a href="services.html" class="nav-link">Weddings &amp; Corporate</a></li>
+          <li><a href="delivery.html" class="nav-link active" aria-current="page">Delivery &amp; FAQs</a></li>
+          <li><a href="contact.html" class="nav-link">Enquire / Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:090000001" class="header-phone" aria-label="Call Urban Bloom at 09 000 0001">
+          <span aria-hidden="true">📞</span>
+          <span>09 000 0001</span>
+        </a>
+        <a href="contact.html" class="btn btn-sm btn-primary">Enquire Now</a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner" aria-labelledby="delivery-heading">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Delivery &amp; FAQs</span>
+        </nav>
+        <h1 id="delivery-heading">Auckland Delivery &amp; Frequently Asked Questions</h1>
+        <p>
+          Information on our Central Auckland delivery zones, order lead times, collection options, and common questions.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 1: Delivery Information -->
+    <section class="section-padding" aria-labelledby="delivery-guidelines">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Delivery Information</span>
+          <h2 id="delivery-guidelines" class="section-title">Central Auckland Flower Delivery</h2>
+          <p class="section-desc">
+            We provide fresh bouquet delivery across Central Auckland and key surrounding suburbs. Delivery charges vary by location and will be confirmed when we respond to your enquiry.
+          </p>
+        </div>
+
+        <div class="feature-grid delivery-feature-grid">
+          <div class="feature-box">
+            <span class="delivery-icon" aria-hidden="true">📅</span>
+            <h3>Delivery Days</h3>
+            <p>Standard delivery is available <strong>Monday to Saturday</strong>. The studio is closed on Sundays.</p>
+          </div>
+
+          <div class="feature-box">
+            <span class="delivery-icon" aria-hidden="true">⏱️</span>
+            <h3>Notice Required</h3>
+            <p>Please allow <strong>at least one working day's notice</strong>. Same-day requests may be possible but cannot be guaranteed.</p>
+          </div>
+
+          <div class="feature-box">
+            <span class="delivery-icon" aria-hidden="true">🏪</span>
+            <h3>Collection</h3>
+            <p>Collection from our Auckland studio can be arranged during opening hours. Please discuss this in your enquiry.</p>
+          </div>
+
+          <div class="feature-box">
+            <span class="delivery-icon" aria-hidden="true">💐</span>
+            <h3>Event Delivery</h3>
+            <p>Wedding, event, and large corporate orders require additional advance notice to secure seasonal flowers.</p>
+          </div>
+        </div>
+
+        <!-- Interactive Suburb Checker -->
+        <div class="suburb-checker-card">
+          <div class="text-center">
+            <span class="section-eyebrow">Interactive Tool</span>
+            <h3 class="suburb-checker-title">Check Your Auckland Suburb</h3>
+            <p class="suburb-checker-desc">
+              Select your destination suburb below to check delivery availability. Delivery charges vary by location.
+            </p>
+          </div>
+
+          <form id="suburbCheckerForm" class="suburb-search-form" aria-label="Auckland Suburb Delivery Checker">
+            <label for="suburbSelect" class="sr-only">Select Auckland suburb</label>
+            <select id="suburbSelect" name="suburb" autocomplete="address-level2">
+              <option value="">-- Choose an Auckland suburb --</option>
+              <option value="Central Auckland">Central Auckland (CBD)</option>
+              <option value="Ponsonby">Ponsonby</option>
+              <option value="Grey Lynn">Grey Lynn</option>
+              <option value="Parnell">Parnell</option>
+              <option value="Newmarket">Newmarket</option>
+              <option value="Mount Eden">Mount Eden</option>
+              <option value="Epsom">Epsom</option>
+              <option value="Remuera">Remuera</option>
+              <option value="Other Auckland Suburb">Other Auckland Suburb</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Check Suburb</button>
+          </form>
+
+          <!-- Quick suburb pills -->
+          <div class="suburb-pills-wrapper">
+            <span class="suburb-pills-label" aria-hidden="true">Quick selection:</span>
+            <div class="suburb-pills" role="group" aria-label="Quick suburb selection">
+              <button type="button" class="suburb-pill" data-suburb="Central Auckland">Central Auckland</button>
+              <button type="button" class="suburb-pill" data-suburb="Ponsonby">Ponsonby</button>
+              <button type="button" class="suburb-pill" data-suburb="Grey Lynn">Grey Lynn</button>
+              <button type="button" class="suburb-pill" data-suburb="Parnell">Parnell</button>
+              <button type="button" class="suburb-pill" data-suburb="Newmarket">Newmarket</button>
+              <button type="button" class="suburb-pill" data-suburb="Mount Eden">Mount Eden</button>
+              <button type="button" class="suburb-pill" data-suburb="Epsom">Epsom</button>
+              <button type="button" class="suburb-pill" data-suburb="Remuera">Remuera</button>
+            </div>
+          </div>
+
+          <!-- Dynamic Results Box — populated by JS using textContent only -->
+          <div id="suburbResultBox" class="suburb-result" role="region" aria-live="polite" aria-label="Delivery availability result"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: FAQs -->
+    <section id="faqs" class="section-padding section-bg-alt" aria-labelledby="faqs-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">FAQs</span>
+          <h2 id="faqs-heading" class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">
+            Find answers to commonly asked questions regarding orders, seasonal stems, wedding timelines, and corporate arrangements.
+          </p>
+        </div>
+
+        <div class="faq-accordion" role="list" aria-label="Frequently Asked Questions">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I request particular flowers?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Yes.</strong> Customers may request particular flowers or preferred colour palettes, but availability always depends on the season and current market supply. If a requested bloom is unavailable, our florists will recommend beautiful, high-quality alternatives of equal or greater value.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you offer same-day delivery?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Same-day delivery may be available for some orders placed early in the day, but it cannot be guaranteed. We strongly recommend submitting your enquiry at least one working day in advance so we can reserve and prepare the freshest blooms.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can you accommodate dietary requirements for gift add-ons?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Customers should provide relevant dietary requirements (such as nut-free, vegan, or gluten-free preferences for chocolates) when submitting an enquiry. Availability of suitable gift items may vary depending on local supplier stock.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>How much notice is required for wedding or event flowers?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Customers are encouraged to enquire at least three weeks before smaller events and considerably earlier for weddings or large events. This gives us ample time to consult on colour palettes, source specialty stems, and prepare styling proposals.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you provide regular flowers for businesses?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Yes.</strong> Weekly, fortnightly, and other recurring floral arrangements can be discussed with Urban Bloom. We provide fresh vase rotations, custom corporate billing, and designs tailored to your brand image starting from approximately $120 per arrangement. Ongoing corporate services: by quotation.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can I order and pay through the website?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                The website is intended for browsing products and services and submitting enquiries. Online payment is not currently provided. Once your enquiry is received, our florist team will check stem availability and contact you to confirm the order details.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false">
+              <span>What are the delivery charges?</span>
+              <span class="faq-icon" aria-hidden="true">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Delivery charges vary by location and will be confirmed when we respond to your enquiry. Use the suburb checker above to see whether your suburb is within our standard delivery area.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center cta-spacer">
+          <p class="faq-contact-prompt">Have a question that isn't answered here?</p>
+          <a href="contact.html" class="btn btn-primary">Contact Our Florists Directly &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo footer-brand">
+            <div class="brand-icon brand-icon--footer" aria-hidden="true">🌿</div>
+            <div class="brand-text">
+              <span class="brand-title brand-title--footer">Urban Bloom</span>
+              <span class="brand-tagline brand-tagline--footer">Florist • Auckland</span>
+            </div>
+          </div>
+          <p>An independent boutique florist in Auckland crafting seasonal bouquets, romantic wedding flowers, and refined corporate arrangements.</p>
+          <p class="footer-contact-details">
+            <strong>Location:</strong> Auckland, New Zealand<br>
+            <strong>Phone:</strong> <a href="tel:090000001" class="footer-link">09 000 0001</a><br>
+            <strong>Email:</strong> <a href="mailto:hello@urbanbloom.kiwi" class="footer-link">hello@urbanbloom.kiwi</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Floral Collection &amp; Gifts</a></li>
+            <li><a href="services.html#weddings">Wedding Florals</a></li>
+            <li><a href="services.html#corporate">Corporate Services</a></li>
+            <li><a href="delivery.html">Delivery Information</a></li>
+            <li><a href="delivery.html#faqs">Frequently Asked Questions</a></li>
+            <li><a href="contact.html">Make an Enquiry</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <table class="hours-table" aria-label="Urban Bloom opening hours">
+            <caption class="sr-only">Urban Bloom Florist opening hours</caption>
+            <thead>
+              <tr><th scope="col">Day</th><th scope="col">Hours</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Monday – Friday</td><td>8:30 am – 5:30 pm</td></tr>
+              <tr><td>Saturday</td><td>9:00 am – 3:00 pm</td></tr>
+              <tr><td>Sunday</td><td>Closed</td></tr>
+            </tbody>
+          </table>
+          <p class="footer-hours-note">Deliveries available Mon–Sat. Allow at least one working day's notice.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Service Suburbs</h4>
+          <p class="footer-suburbs-intro">Delivering across Central Auckland and selected surrounding suburbs:</p>
+          <div class="footer-suburbs-list">
+            <span class="suburb-tag">Central Auckland</span>
+            <span class="suburb-tag">Ponsonby</span>
+            <span class="suburb-tag">Grey Lynn</span>
+            <span class="suburb-tag">Parnell</span>
+            <span class="suburb-tag">Newmarket</span>
+            <span class="suburb-tag">Mount Eden</span>
+            <span class="suburb-tag">Epsom</span>
+            <span class="suburb-tag">Remuera</span>
+          </div>
+          <div class="footer-suburb-cta">
+            <a href="delivery.html" class="btn btn-sm btn-outline-white">Check Suburb Delivery &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-academic-banner">
+      <div class="container">
+        <span>BBIS 6105 Web Design and Development | Assignment 2a Alpha Prototype | Fictional Case Study: Urban Bloom Florist v1</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Urban Bloom Florist. All rights reserved. Browse &amp; enquiry platform (no online checkout).</p>
+        <p class="footer-credits">Images: <a href="https://unsplash.com/" class="footer-credits-link" target="_blank" rel="noopener">Unsplash</a> &amp; <a href="https://www.pexels.com/" class="footer-credits-link" target="_blank" rel="noopener">Pexels</a> — used under their respective licences. Fonts: Google Fonts (SIL Open Font Licence).</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
